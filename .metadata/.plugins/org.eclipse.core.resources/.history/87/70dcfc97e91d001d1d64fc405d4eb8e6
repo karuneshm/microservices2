@@ -1,0 +1,5 @@
+package com.karunesh.microservices.limitsservice.bean;
+
+public class Limits {
+
+}

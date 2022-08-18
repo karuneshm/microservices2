@@ -1,0 +1,5 @@
+package com.karunesh.microservices.currencyconversionservice;
+
+public class CurrencyConversionController {
+
+}

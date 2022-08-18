@@ -1,0 +1,5 @@
+package com.karunesh.microservices.apigateway;
+
+public class APIGatewayConfiguration {
+
+}

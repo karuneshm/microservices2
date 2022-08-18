@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Inline local variable &apos;com.karunesh.microservices.apigateway.APIGatewayConfiguration.gatewayLocator().routeFunction&apos; in &apos;com.karunesh.microservices.apigateway.APIGatewayConfiguration.gatewayLocator()&apos;&#x0A;- Original project: &apos;api-gateway&apos;&#x0A;- Original element: &apos;com.karunesh.microservices.apigateway.APIGatewayConfiguration.gatewayLocator().routeFunction&apos;" description="Inline local variable &apos;routeFunction&apos;" id="org.eclipse.jdt.ui.inline.temp" input="/src\/main\/java&lt;com.karunesh.microservices.apigateway{APIGatewayConfiguration.java" selection="712 13" stamp="1660748169937" version="1.0"/>
+</session>

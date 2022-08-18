@@ -1,0 +1,5 @@
+package com.karunesh.microservices.currencyexchangeservice;
+
+public class CurrencyExchange {
+
+}
