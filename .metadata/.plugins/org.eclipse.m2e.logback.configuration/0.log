@@ -4034,3 +4034,636 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2022-08-18 09:52:33,674 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/spring-cloud-config-server-2/src/test/resources
 2022-08-18 10:00:43,794 [ModalContext] INFO  o.e.jgit.transport.TransportHttp - URI 'http://github.com/karuneshm/microservies2.git': following HTTP redirect #0  http://github.com/karuneshm/microservies2.git/ -> https://github.com/karuneshm/microservies2.git/
 2022-08-18 14:17:03,706 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-08-18 14:59:37,761 [Worker-17: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/pom.xml.
+2022-08-18 14:59:40,784 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-sleuth/3.1.3/spring-cloud-starter-sleuth-3.1.3.pom
+2022-08-18 14:59:41,287 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-sleuth/3.1.3/spring-cloud-starter-sleuth-3.1.3.pom
+2022-08-18 14:59:41,536 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth/3.1.3/spring-cloud-sleuth-3.1.3.pom
+2022-08-18 14:59:41,823 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth/3.1.3/spring-cloud-sleuth-3.1.3.pom
+2022-08-18 14:59:42,114 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-deployer-dependencies/2.5.1/spring-cloud-deployer-dependencies-2.5.1.pom
+2022-08-18 14:59:42,415 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-deployer-dependencies/2.5.1/spring-cloud-deployer-dependencies-2.5.1.pom
+2022-08-18 14:59:42,704 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dataflow-dependencies-parent/2.7.1/spring-cloud-dataflow-dependencies-parent-2.7.1.pom
+2022-08-18 14:59:42,945 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dataflow-dependencies-parent/2.7.1/spring-cloud-dataflow-dependencies-parent-2.7.1.pom
+2022-08-18 14:59:43,206 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.6.0/spring-security-bom-5.6.0.pom
+2022-08-18 14:59:43,458 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.6.0/spring-security-bom-5.6.0.pom
+2022-08-18 14:59:43,696 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.15.3/testcontainers-bom-1.15.3.pom
+2022-08-18 14:59:43,966 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.15.3/testcontainers-bom-1.15.3.pom
+2022-08-18 14:59:44,227 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-autoconfigure/3.1.3/spring-cloud-sleuth-autoconfigure-3.1.3.pom
+2022-08-18 14:59:44,499 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-autoconfigure/3.1.3/spring-cloud-sleuth-autoconfigure-3.1.3.pom
+2022-08-18 14:59:44,787 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-instrumentation/3.1.3/spring-cloud-sleuth-instrumentation-3.1.3.pom
+2022-08-18 14:59:45,031 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-instrumentation/3.1.3/spring-cloud-sleuth-instrumentation-3.1.3.pom
+2022-08-18 14:59:45,314 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-api/3.1.3/spring-cloud-sleuth-api-3.1.3.pom
+2022-08-18 14:59:45,604 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-api/3.1.3/spring-cloud-sleuth-api-3.1.3.pom
+2022-08-18 14:59:45,896 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.7/aspectjrt-1.9.7.pom
+2022-08-18 14:59:46,136 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.7/aspectjrt-1.9.7.pom
+2022-08-18 14:59:46,407 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-brave/3.1.3/spring-cloud-sleuth-brave-3.1.3.pom
+2022-08-18 14:59:46,722 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-brave/3.1.3/spring-cloud-sleuth-brave-3.1.3.pom
+2022-08-18 14:59:47,225 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/5.13.9/brave-5.13.9.pom
+2022-08-18 14:59:47,480 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/5.13.9/brave-5.13.9.pom
+2022-08-18 14:59:47,724 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-parent/5.13.9/brave-parent-5.13.9.pom
+2022-08-18 14:59:48,083 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-parent/5.13.9/brave-parent-5.13.9.pom
+2022-08-18 14:59:48,554 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/5.13.9/brave-context-slf4j-5.13.9.pom
+2022-08-18 14:59:48,964 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/5.13.9/brave-context-slf4j-5.13.9.pom
+2022-08-18 14:59:49,280 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-parent/5.13.9/brave-context-parent-5.13.9.pom
+2022-08-18 14:59:49,580 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-parent/5.13.9/brave-context-parent-5.13.9.pom
+2022-08-18 14:59:49,857 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/2.16.3/zipkin-reporter-brave-2.16.3.pom
+2022-08-18 14:59:50,194 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/2.16.3/zipkin-reporter-brave-2.16.3.pom
+2022-08-18 14:59:50,461 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/2.16.3/zipkin-reporter-parent-2.16.3.pom
+2022-08-18 14:59:50,818 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/2.16.3/zipkin-reporter-parent-2.16.3.pom
+2022-08-18 14:59:51,114 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.16.3/zipkin-reporter-2.16.3.pom
+2022-08-18 14:59:51,526 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.16.3/zipkin-reporter-2.16.3.pom
+2022-08-18 14:59:51,934 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/zipkin2/zipkin/2.23.2/zipkin-2.23.2.pom
+2022-08-18 14:59:52,172 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/zipkin2/zipkin/2.23.2/zipkin-2.23.2.pom
+2022-08-18 14:59:52,479 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/zipkin-parent/2.23.2/zipkin-parent-2.23.2.pom
+2022-08-18 14:59:52,802 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/zipkin-parent/2.23.2/zipkin-parent-2.23.2.pom
+2022-08-18 14:59:53,045 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-messaging/5.13.9/brave-instrumentation-messaging-5.13.9.pom
+2022-08-18 14:59:53,381 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-messaging/5.13.9/brave-instrumentation-messaging-5.13.9.pom
+2022-08-18 14:59:53,688 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-parent/5.13.9/brave-instrumentation-parent-5.13.9.pom
+2022-08-18 14:59:54,086 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-parent/5.13.9/brave-instrumentation-parent-5.13.9.pom
+2022-08-18 14:59:54,496 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-rpc/5.13.9/brave-instrumentation-rpc-5.13.9.pom
+2022-08-18 14:59:54,913 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-rpc/5.13.9/brave-instrumentation-rpc-5.13.9.pom
+2022-08-18 14:59:55,153 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.13.9/brave-instrumentation-spring-rabbit-5.13.9.pom
+2022-08-18 14:59:55,519 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.13.9/brave-instrumentation-spring-rabbit-5.13.9.pom
+2022-08-18 14:59:55,825 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-clients/5.13.9/brave-instrumentation-kafka-clients-5.13.9.pom
+2022-08-18 14:59:56,067 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-clients/5.13.9/brave-instrumentation-kafka-clients-5.13.9.pom
+2022-08-18 14:59:56,314 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-streams/5.13.9/brave-instrumentation-kafka-streams-5.13.9.pom
+2022-08-18 14:59:56,556 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-streams/5.13.9/brave-instrumentation-kafka-streams-5.13.9.pom
+2022-08-18 14:59:56,814 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpclient/5.13.9/brave-instrumentation-httpclient-5.13.9.pom
+2022-08-18 14:59:57,123 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpclient/5.13.9/brave-instrumentation-httpclient-5.13.9.pom
+2022-08-18 14:59:57,534 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/5.13.9/brave-instrumentation-http-5.13.9.pom
+2022-08-18 14:59:57,893 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/5.13.9/brave-instrumentation-http-5.13.9.pom
+2022-08-18 14:59:58,185 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.13.9/brave-instrumentation-httpasyncclient-5.13.9.pom
+2022-08-18 14:59:58,493 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.13.9/brave-instrumentation-httpasyncclient-5.13.9.pom
+2022-08-18 14:59:58,788 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-jms/5.13.9/brave-instrumentation-jms-5.13.9.pom
+2022-08-18 14:59:59,050 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-jms/5.13.9/brave-instrumentation-jms-5.13.9.pom
+2022-08-18 14:59:59,309 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-mongodb/5.13.9/brave-instrumentation-mongodb-5.13.9.pom
+2022-08-18 14:59:59,619 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-mongodb/5.13.9/brave-instrumentation-mongodb-5.13.9.pom
+2022-08-18 14:59:59,921 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/0.21.3/brave-propagation-aws-0.21.3.pom
+2022-08-18 15:00:00,233 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/0.21.3/brave-propagation-aws-0.21.3.pom
+2022-08-18 15:00:00,541 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/aws/zipkin-aws-parent/0.21.3/zipkin-aws-parent-0.21.3.pom
+2022-08-18 15:00:00,847 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/aws/zipkin-aws-parent/0.21.3/zipkin-aws-parent-0.21.3.pom
+2022-08-18 15:00:01,162 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.11.2/jackson-bom-2.11.2.pom
+2022-08-18 15:00:01,431 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.11.2/jackson-bom-2.11.2.pom
+2022-08-18 15:00:01,786 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.51.Final/netty-bom-4.1.51.Final.pom
+2022-08-18 15:00:02,097 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.51.Final/netty-bom-4.1.51.Final.pom
+2022-08-18 15:00:02,399 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-bom/1.11.846/aws-java-sdk-bom-1.11.846.pom
+2022-08-18 15:00:02,765 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-bom/1.11.846/aws-java-sdk-bom-1.11.846.pom
+2022-08-18 15:00:03,041 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.846/aws-java-sdk-pom-1.11.846.pom
+2022-08-18 15:00:03,409 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.846/aws-java-sdk-pom-1.11.846.pom
+2022-08-18 15:00:03,710 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-metrics-micrometer/2.16.3/zipkin-reporter-metrics-micrometer-2.16.3.pom
+2022-08-18 15:00:03,956 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-metrics-micrometer/2.16.3/zipkin-reporter-metrics-micrometer-2.16.3.pom
+2022-08-18 15:00:04,736 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-sleuth/3.1.3/spring-cloud-starter-sleuth-3.1.3.jar
+2022-08-18 15:00:05,045 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-sleuth/3.1.3/spring-cloud-starter-sleuth-3.1.3.jar
+2022-08-18 15:00:05,350 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-autoconfigure/3.1.3/spring-cloud-sleuth-autoconfigure-3.1.3.jar
+2022-08-18 15:00:06,589 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-autoconfigure/3.1.3/spring-cloud-sleuth-autoconfigure-3.1.3.jar
+2022-08-18 15:00:06,852 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-instrumentation/3.1.3/spring-cloud-sleuth-instrumentation-3.1.3.jar
+2022-08-18 15:00:08,496 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-instrumentation/3.1.3/spring-cloud-sleuth-instrumentation-3.1.3.jar
+2022-08-18 15:00:08,831 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-api/3.1.3/spring-cloud-sleuth-api-3.1.3.jar
+2022-08-18 15:00:09,138 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-api/3.1.3/spring-cloud-sleuth-api-3.1.3.jar
+2022-08-18 15:00:09,446 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.7/aspectjrt-1.9.7.jar
+2022-08-18 15:00:09,958 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.7/aspectjrt-1.9.7.jar
+2022-08-18 15:00:10,264 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-brave/3.1.3/spring-cloud-sleuth-brave-3.1.3.jar
+2022-08-18 15:00:10,601 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-brave/3.1.3/spring-cloud-sleuth-brave-3.1.3.jar
+2022-08-18 15:00:10,879 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/5.13.9/brave-5.13.9.jar
+2022-08-18 15:00:11,699 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/5.13.9/brave-5.13.9.jar
+2022-08-18 15:00:12,005 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/5.13.9/brave-context-slf4j-5.13.9.jar
+2022-08-18 15:00:12,238 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/5.13.9/brave-context-slf4j-5.13.9.jar
+2022-08-18 15:00:12,518 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-messaging/5.13.9/brave-instrumentation-messaging-5.13.9.jar
+2022-08-18 15:00:12,825 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-messaging/5.13.9/brave-instrumentation-messaging-5.13.9.jar
+2022-08-18 15:00:13,133 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-rpc/5.13.9/brave-instrumentation-rpc-5.13.9.jar
+2022-08-18 15:00:13,446 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-rpc/5.13.9/brave-instrumentation-rpc-5.13.9.jar
+2022-08-18 15:00:13,750 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.13.9/brave-instrumentation-spring-rabbit-5.13.9.jar
+2022-08-18 15:00:14,054 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.13.9/brave-instrumentation-spring-rabbit-5.13.9.jar
+2022-08-18 15:00:14,390 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-clients/5.13.9/brave-instrumentation-kafka-clients-5.13.9.jar
+2022-08-18 15:00:14,644 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-clients/5.13.9/brave-instrumentation-kafka-clients-5.13.9.jar
+2022-08-18 15:00:14,988 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-streams/5.13.9/brave-instrumentation-kafka-streams-5.13.9.jar
+2022-08-18 15:00:15,288 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-streams/5.13.9/brave-instrumentation-kafka-streams-5.13.9.jar
+2022-08-18 15:00:15,670 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpclient/5.13.9/brave-instrumentation-httpclient-5.13.9.jar
+2022-08-18 15:00:15,912 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpclient/5.13.9/brave-instrumentation-httpclient-5.13.9.jar
+2022-08-18 15:00:16,186 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/5.13.9/brave-instrumentation-http-5.13.9.jar
+2022-08-18 15:00:16,513 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/5.13.9/brave-instrumentation-http-5.13.9.jar
+2022-08-18 15:00:16,759 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.13.9/brave-instrumentation-httpasyncclient-5.13.9.jar
+2022-08-18 15:00:17,024 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.13.9/brave-instrumentation-httpasyncclient-5.13.9.jar
+2022-08-18 15:00:17,334 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-jms/5.13.9/brave-instrumentation-jms-5.13.9.jar
+2022-08-18 15:00:17,587 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-jms/5.13.9/brave-instrumentation-jms-5.13.9.jar
+2022-08-18 15:00:17,843 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-mongodb/5.13.9/brave-instrumentation-mongodb-5.13.9.jar
+2022-08-18 15:00:18,079 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-mongodb/5.13.9/brave-instrumentation-mongodb-5.13.9.jar
+2022-08-18 15:00:18,357 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/0.21.3/brave-propagation-aws-0.21.3.jar
+2022-08-18 15:00:18,764 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/0.21.3/brave-propagation-aws-0.21.3.jar
+2022-08-18 15:00:19,007 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-metrics-micrometer/2.16.3/zipkin-reporter-metrics-micrometer-2.16.3.jar
+2022-08-18 15:00:19,276 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-metrics-micrometer/2.16.3/zipkin-reporter-metrics-micrometer-2.16.3.jar
+2022-08-18 15:00:19,590 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.16.3/zipkin-reporter-2.16.3.jar
+2022-08-18 15:00:19,889 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.16.3/zipkin-reporter-2.16.3.jar
+2022-08-18 15:00:20,199 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/zipkin2/zipkin/2.23.2/zipkin-2.23.2.jar
+2022-08-18 15:00:21,020 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/zipkin2/zipkin/2.23.2/zipkin-2.23.2.jar
+2022-08-18 15:00:22,918 [Worker-17: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:naming-server:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/naming-server/pom.xml.
+2022-08-18 15:00:23,542 [Worker-17: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:currency-conversion-service:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-conversion-service-2/pom.xml.
+2022-08-18 15:00:24,616 [Worker-17: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:api-gateway:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/api-gateway/pom.xml.
+2022-08-18 15:00:25,467 [Worker-17: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:limits-service-2:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/limits-service-2/pom.xml.
+2022-08-18 15:00:25,963 [Worker-17: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:spring-cloud-config-server-2:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/spring-cloud-config-server-2/pom.xml.
+2022-08-18 15:00:26,301 [Worker-17: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/pom.xml.
+2022-08-18 15:00:28,155 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:00:28,155 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:00:28,164 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:00:28,264 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:00:28,270 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:00:28,270 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:00:28,270 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/src/test/resources
+2022-08-18 15:00:31,107 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:00:31,107 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:00:31,108 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:00:31,221 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:00:31,227 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:00:31,228 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:00:31,228 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/api-gateway/src/test/resources
+2022-08-18 15:00:31,976 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-sleuth/3.1.3/spring-cloud-starter-sleuth-3.1.3-sources.jar
+2022-08-18 15:00:31,990 [Worker-24: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-sleuth:3.1.3
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-sleuth:jar:sources:3.1.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2022-08-18 15:00:32,270 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:00:32,270 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:00:32,270 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:00:32,279 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:00:32,282 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:00:32,282 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:00:32,283 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-conversion-service-2/src/test/resources
+2022-08-18 15:00:32,793 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:00:32,794 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:00:32,799 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:00:32,805 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:00:32,810 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:00:32,811 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:00:32,811 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/src/test/resources
+2022-08-18 15:00:33,010 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-autoconfigure/3.1.3/spring-cloud-sleuth-autoconfigure-3.1.3-sources.jar
+2022-08-18 15:00:33,695 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:00:33,695 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:00:33,697 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:00:33,706 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:00:33,709 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:00:33,709 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:00:33,710 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/limits-service-2/src/test/resources
+2022-08-18 15:00:33,929 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-autoconfigure/3.1.3/spring-cloud-sleuth-autoconfigure-3.1.3-sources.jar
+2022-08-18 15:00:33,957 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-sleuth-autoconfigure:3.1.3
+2022-08-18 15:00:34,585 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:00:34,585 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:00:34,586 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:00:34,605 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:00:34,608 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:00:34,609 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:00:34,609 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/naming-server/src/test/resources
+2022-08-18 15:00:35,224 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-instrumentation/3.1.3/spring-cloud-sleuth-instrumentation-3.1.3-sources.jar
+2022-08-18 15:00:35,753 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:00:35,753 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:00:35,753 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:00:35,764 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:00:35,769 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:00:35,769 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:00:35,770 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/spring-cloud-config-server-2/src/test/resources
+2022-08-18 15:00:36,786 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-instrumentation/3.1.3/spring-cloud-sleuth-instrumentation-3.1.3-sources.jar
+2022-08-18 15:00:36,803 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-sleuth-instrumentation:3.1.3
+2022-08-18 15:00:37,917 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-api/3.1.3/spring-cloud-sleuth-api-3.1.3-sources.jar
+2022-08-18 15:00:38,446 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-api/3.1.3/spring-cloud-sleuth-api-3.1.3-sources.jar
+2022-08-18 15:00:38,462 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-sleuth-api:3.1.3
+2022-08-18 15:00:39,758 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.7/aspectjrt-1.9.7-sources.jar
+2022-08-18 15:00:43,040 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.7/aspectjrt-1.9.7-sources.jar
+2022-08-18 15:00:43,084 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjrt:1.9.7
+2022-08-18 15:00:44,212 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-brave/3.1.3/spring-cloud-sleuth-brave-3.1.3-sources.jar
+2022-08-18 15:00:44,723 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-brave/3.1.3/spring-cloud-sleuth-brave-3.1.3-sources.jar
+2022-08-18 15:00:44,740 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-sleuth-brave:3.1.3
+2022-08-18 15:00:45,715 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/5.13.9/brave-5.13.9-sources.jar
+2022-08-18 15:00:46,705 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/5.13.9/brave-5.13.9-sources.jar
+2022-08-18 15:00:46,719 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave:5.13.9
+2022-08-18 15:00:47,686 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/5.13.9/brave-context-slf4j-5.13.9-sources.jar
+2022-08-18 15:00:48,140 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/5.13.9/brave-context-slf4j-5.13.9-sources.jar
+2022-08-18 15:00:48,159 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-context-slf4j:5.13.9
+2022-08-18 15:00:49,195 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-messaging/5.13.9/brave-instrumentation-messaging-5.13.9-sources.jar
+2022-08-18 15:00:49,649 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-messaging/5.13.9/brave-instrumentation-messaging-5.13.9-sources.jar
+2022-08-18 15:00:49,674 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-messaging:5.13.9
+2022-08-18 15:00:50,626 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-rpc/5.13.9/brave-instrumentation-rpc-5.13.9-sources.jar
+2022-08-18 15:00:51,121 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-rpc/5.13.9/brave-instrumentation-rpc-5.13.9-sources.jar
+2022-08-18 15:00:51,135 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-rpc:5.13.9
+2022-08-18 15:00:52,111 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.13.9/brave-instrumentation-spring-rabbit-5.13.9-sources.jar
+2022-08-18 15:00:52,601 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.13.9/brave-instrumentation-spring-rabbit-5.13.9-sources.jar
+2022-08-18 15:00:52,628 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-spring-rabbit:5.13.9
+2022-08-18 15:00:53,609 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-clients/5.13.9/brave-instrumentation-kafka-clients-5.13.9-sources.jar
+2022-08-18 15:00:54,115 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-clients/5.13.9/brave-instrumentation-kafka-clients-5.13.9-sources.jar
+2022-08-18 15:00:54,140 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-kafka-clients:5.13.9
+2022-08-18 15:00:55,219 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-streams/5.13.9/brave-instrumentation-kafka-streams-5.13.9-sources.jar
+2022-08-18 15:00:55,731 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-streams/5.13.9/brave-instrumentation-kafka-streams-5.13.9-sources.jar
+2022-08-18 15:00:55,753 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-kafka-streams:5.13.9
+2022-08-18 15:00:57,611 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpclient/5.13.9/brave-instrumentation-httpclient-5.13.9-sources.jar
+2022-08-18 15:00:58,069 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpclient/5.13.9/brave-instrumentation-httpclient-5.13.9-sources.jar
+2022-08-18 15:00:58,101 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-httpclient:5.13.9
+2022-08-18 15:00:59,782 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/5.13.9/brave-instrumentation-http-5.13.9-sources.jar
+2022-08-18 15:01:00,279 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/5.13.9/brave-instrumentation-http-5.13.9-sources.jar
+2022-08-18 15:01:00,293 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-http:5.13.9
+2022-08-18 15:01:01,280 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.13.9/brave-instrumentation-httpasyncclient-5.13.9-sources.jar
+2022-08-18 15:01:01,758 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.13.9/brave-instrumentation-httpasyncclient-5.13.9-sources.jar
+2022-08-18 15:01:01,770 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-httpasyncclient:5.13.9
+2022-08-18 15:01:02,806 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-jms/5.13.9/brave-instrumentation-jms-5.13.9-sources.jar
+2022-08-18 15:01:03,298 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-jms/5.13.9/brave-instrumentation-jms-5.13.9-sources.jar
+2022-08-18 15:01:03,314 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-jms:5.13.9
+2022-08-18 15:01:04,455 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-mongodb/5.13.9/brave-instrumentation-mongodb-5.13.9-sources.jar
+2022-08-18 15:01:04,997 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-mongodb/5.13.9/brave-instrumentation-mongodb-5.13.9-sources.jar
+2022-08-18 15:01:05,013 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-mongodb:5.13.9
+2022-08-18 15:01:06,078 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/0.21.3/brave-propagation-aws-0.21.3-sources.jar
+2022-08-18 15:01:06,590 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/0.21.3/brave-propagation-aws-0.21.3-sources.jar
+2022-08-18 15:01:06,606 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.aws:brave-propagation-aws:0.21.3
+2022-08-18 15:01:07,618 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-metrics-micrometer/2.16.3/zipkin-reporter-metrics-micrometer-2.16.3-sources.jar
+2022-08-18 15:01:08,122 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-metrics-micrometer/2.16.3/zipkin-reporter-metrics-micrometer-2.16.3-sources.jar
+2022-08-18 15:01:08,142 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-reporter-metrics-micrometer:2.16.3
+2022-08-18 15:01:09,073 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.16.3/zipkin-reporter-2.16.3-sources.jar
+2022-08-18 15:01:09,516 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.16.3/zipkin-reporter-2.16.3-sources.jar
+2022-08-18 15:01:09,537 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-reporter:2.16.3
+2022-08-18 15:01:10,809 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/zipkin2/zipkin/2.23.2/zipkin-2.23.2-sources.jar
+2022-08-18 15:01:11,573 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/zipkin2/zipkin/2.23.2/zipkin-2.23.2-sources.jar
+2022-08-18 15:01:11,593 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.zipkin2:zipkin:2.23.2
+2022-08-18 15:01:12,737 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:01:12,737 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:01:12,737 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:01:12,738 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:01:12,744 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:01:12,745 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:01:12,745 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/src/test/resources
+2022-08-18 15:01:14,486 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-sleuth/3.1.3/spring-cloud-starter-sleuth-3.1.3-javadoc.jar
+2022-08-18 15:01:14,974 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-sleuth/3.1.3/spring-cloud-starter-sleuth-3.1.3-javadoc.jar
+2022-08-18 15:01:15,009 [Worker-17: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.cloud:spring-cloud-starter-sleuth:3.1.3
+2022-08-18 15:01:15,345 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:01:15,345 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:01:15,345 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:01:15,345 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:01:15,347 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:01:15,348 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:01:15,348 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/src/test/resources
+2022-08-18 15:01:24,387 [Worker-17: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/pom.xml.
+2022-08-18 15:01:26,806 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-zipkin/3.1.3/spring-cloud-sleuth-zipkin-3.1.3.pom
+2022-08-18 15:01:27,297 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-zipkin/3.1.3/spring-cloud-sleuth-zipkin-3.1.3.pom
+2022-08-18 15:01:27,532 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-kafka/2.16.3/zipkin-sender-kafka-2.16.3.pom
+2022-08-18 15:01:27,758 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-kafka/2.16.3/zipkin-sender-kafka-2.16.3.pom
+2022-08-18 15:01:28,014 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-activemq-client/2.16.3/zipkin-sender-activemq-client-2.16.3.pom
+2022-08-18 15:01:28,297 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-activemq-client/2.16.3/zipkin-sender-activemq-client-2.16.3.pom
+2022-08-18 15:01:28,526 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-amqp-client/2.16.3/zipkin-sender-amqp-client-2.16.3.pom
+2022-08-18 15:01:28,757 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-amqp-client/2.16.3/zipkin-sender-amqp-client-2.16.3.pom
+2022-08-18 15:01:29,429 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-zipkin/3.1.3/spring-cloud-sleuth-zipkin-3.1.3.jar
+2022-08-18 15:01:29,707 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-zipkin/3.1.3/spring-cloud-sleuth-zipkin-3.1.3.jar
+2022-08-18 15:01:30,720 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/2.16.3/zipkin-reporter-brave-2.16.3.jar
+2022-08-18 15:01:31,010 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/2.16.3/zipkin-reporter-brave-2.16.3.jar
+2022-08-18 15:01:31,247 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-kafka/2.16.3/zipkin-sender-kafka-2.16.3.jar
+2022-08-18 15:01:31,575 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-kafka/2.16.3/zipkin-sender-kafka-2.16.3.jar
+2022-08-18 15:01:31,991 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-activemq-client/2.16.3/zipkin-sender-activemq-client-2.16.3.jar
+2022-08-18 15:01:32,224 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-activemq-client/2.16.3/zipkin-sender-activemq-client-2.16.3.jar
+2022-08-18 15:01:32,466 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-amqp-client/2.16.3/zipkin-sender-amqp-client-2.16.3.jar
+2022-08-18 15:01:32,715 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-amqp-client/2.16.3/zipkin-sender-amqp-client-2.16.3.jar
+2022-08-18 15:01:32,930 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:01:32,930 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:01:32,930 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:01:32,930 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:01:32,936 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:01:32,936 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:01:32,937 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/src/test/resources
+2022-08-18 15:01:36,057 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:01:36,057 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:01:36,058 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:01:36,061 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:01:36,065 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:01:36,066 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:01:36,066 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/src/test/resources
+2022-08-18 15:01:37,310 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-zipkin/3.1.3/spring-cloud-sleuth-zipkin-3.1.3-sources.jar
+2022-08-18 15:01:37,858 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-zipkin/3.1.3/spring-cloud-sleuth-zipkin-3.1.3-sources.jar
+2022-08-18 15:01:37,879 [Worker-25: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-sleuth-zipkin:3.1.3
+2022-08-18 15:01:39,048 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/2.16.3/zipkin-reporter-brave-2.16.3-sources.jar
+2022-08-18 15:01:39,523 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/2.16.3/zipkin-reporter-brave-2.16.3-sources.jar
+2022-08-18 15:01:39,540 [Worker-25: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-reporter-brave:2.16.3
+2022-08-18 15:01:40,584 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-kafka/2.16.3/zipkin-sender-kafka-2.16.3-sources.jar
+2022-08-18 15:01:41,249 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-kafka/2.16.3/zipkin-sender-kafka-2.16.3-sources.jar
+2022-08-18 15:01:41,265 [Worker-25: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-sender-kafka:2.16.3
+2022-08-18 15:01:42,426 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-activemq-client/2.16.3/zipkin-sender-activemq-client-2.16.3-sources.jar
+2022-08-18 15:01:42,959 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-activemq-client/2.16.3/zipkin-sender-activemq-client-2.16.3-sources.jar
+2022-08-18 15:01:43,031 [Worker-25: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-sender-activemq-client:2.16.3
+2022-08-18 15:01:44,015 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-amqp-client/2.16.3/zipkin-sender-amqp-client-2.16.3-sources.jar
+2022-08-18 15:01:44,682 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-amqp-client/2.16.3/zipkin-sender-amqp-client-2.16.3-sources.jar
+2022-08-18 15:01:44,693 [Worker-25: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-sender-amqp-client:2.16.3
+2022-08-18 15:01:45,239 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:01:45,239 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:01:45,239 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:01:45,239 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:01:45,241 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:01:45,241 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:01:45,242 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/src/test/resources
+2022-08-18 15:02:16,952 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/pom.xml.
+2022-08-18 15:02:19,706 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-rabbit/2.4.6/spring-rabbit-2.4.6.pom
+2022-08-18 15:02:20,110 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-rabbit/2.4.6/spring-rabbit-2.4.6.pom
+2022-08-18 15:02:20,529 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp/2.4.6/spring-amqp-2.4.6.pom
+2022-08-18 15:02:20,742 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp/2.4.6/spring-amqp-2.4.6.pom
+2022-08-18 15:02:21,149 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/1.3.3/spring-retry-1.3.3.pom
+2022-08-18 15:02:21,373 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/1.3.3/spring-retry-1.3.3.pom
+2022-08-18 15:02:21,623 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.29.RELEASE/spring-framework-bom-4.3.29.RELEASE.pom
+2022-08-18 15:02:21,829 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.29.RELEASE/spring-framework-bom-4.3.29.RELEASE.pom
+2022-08-18 15:02:22,044 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/5.14.2/amqp-client-5.14.2.pom
+2022-08-18 15:02:22,370 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/5.14.2/amqp-client-5.14.2.pom
+2022-08-18 15:02:22,609 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.3.22/spring-messaging-5.3.22.pom
+2022-08-18 15:02:22,823 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.3.22/spring-messaging-5.3.22.pom
+2022-08-18 15:02:23,336 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-rabbit/2.4.6/spring-rabbit-2.4.6.jar
+2022-08-18 15:02:24,311 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-rabbit/2.4.6/spring-rabbit-2.4.6.jar
+2022-08-18 15:02:24,718 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp/2.4.6/spring-amqp-2.4.6.jar
+2022-08-18 15:02:24,965 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp/2.4.6/spring-amqp-2.4.6.jar
+2022-08-18 15:02:25,203 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/1.3.3/spring-retry-1.3.3.jar
+2022-08-18 15:02:25,579 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/1.3.3/spring-retry-1.3.3.jar
+2022-08-18 15:02:25,852 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/5.14.2/amqp-client-5.14.2.jar
+2022-08-18 15:02:26,680 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/5.14.2/amqp-client-5.14.2.jar
+2022-08-18 15:02:26,920 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.3.22/spring-messaging-5.3.22.jar
+2022-08-18 15:02:27,562 [Worker-26: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.3.22/spring-messaging-5.3.22.jar
+2022-08-18 15:02:28,000 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:naming-server:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/naming-server/pom.xml.
+2022-08-18 15:02:28,771 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:currency-conversion-service:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-conversion-service-2/pom.xml.
+2022-08-18 15:02:29,332 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:api-gateway:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/api-gateway/pom.xml.
+2022-08-18 15:02:30,158 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:limits-service-2:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/limits-service-2/pom.xml.
+2022-08-18 15:02:30,634 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:spring-cloud-config-server-2:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/spring-cloud-config-server-2/pom.xml.
+2022-08-18 15:02:30,859 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/pom.xml.
+2022-08-18 15:02:32,108 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:32,108 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:32,108 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:02:32,109 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:02:32,111 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:32,111 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:32,112 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/src/test/resources
+2022-08-18 15:02:33,333 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:33,333 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:33,337 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:02:33,427 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:02:33,430 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:33,430 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:33,431 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/limits-service-2/src/test/resources
+2022-08-18 15:02:35,043 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:35,043 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:35,044 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:02:35,044 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:02:35,046 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:35,047 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:35,047 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/api-gateway/src/test/resources
+2022-08-18 15:02:35,861 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:35,861 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:35,863 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:02:35,947 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-rabbit/2.4.6/spring-rabbit-2.4.6-sources.jar
+2022-08-18 15:02:36,003 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:02:36,009 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:36,009 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:36,009 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-conversion-service-2/src/test/resources
+2022-08-18 15:02:36,301 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:36,302 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:36,303 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:02:36,306 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:02:36,311 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:36,311 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:36,311 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/src/test/resources
+2022-08-18 15:02:37,097 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-rabbit/2.4.6/spring-rabbit-2.4.6-sources.jar
+2022-08-18 15:02:37,136 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.amqp:spring-rabbit:2.4.6
+2022-08-18 15:02:37,525 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:37,525 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:37,527 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:02:37,533 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:02:37,535 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:37,536 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:37,536 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/naming-server/src/test/resources
+2022-08-18 15:02:38,797 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:38,797 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:38,798 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:02:38,867 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp/2.4.6/spring-amqp-2.4.6-sources.jar
+2022-08-18 15:02:38,868 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:02:38,874 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:38,874 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:38,874 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/spring-cloud-config-server-2/src/test/resources
+2022-08-18 15:02:39,597 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp/2.4.6/spring-amqp-2.4.6-sources.jar
+2022-08-18 15:02:39,612 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.amqp:spring-amqp:2.4.6
+2022-08-18 15:02:40,918 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/1.3.3/spring-retry-1.3.3-sources.jar
+2022-08-18 15:02:41,897 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/1.3.3/spring-retry-1.3.3-sources.jar
+2022-08-18 15:02:41,939 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.retry:spring-retry:1.3.3
+2022-08-18 15:02:42,972 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/5.14.2/amqp-client-5.14.2-sources.jar
+2022-08-18 15:02:44,147 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/5.14.2/amqp-client-5.14.2-sources.jar
+2022-08-18 15:02:44,158 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.rabbitmq:amqp-client:5.14.2
+2022-08-18 15:02:45,036 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.3.22/spring-messaging-5.3.22-sources.jar
+2022-08-18 15:02:46,338 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.3.22/spring-messaging-5.3.22-sources.jar
+2022-08-18 15:02:46,354 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-messaging:5.3.22
+2022-08-18 15:02:46,700 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:46,700 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:46,700 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:02:46,700 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:02:46,702 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:02:46,702 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:02:46,702 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/src/test/resources
+2022-08-18 15:05:08,036 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:05:08,037 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:05:08,040 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:05:08,210 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:05:08,214 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:05:08,214 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:05:08,214 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/src/test/resources
+2022-08-18 15:11:21,035 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:11:21,036 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:11:21,038 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:11:21,162 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:11:21,166 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:11:21,166 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:11:21,166 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-exchange-service-2/src/test/resources
+2022-08-18 15:12:55,442 [Worker-29: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:currency-conversion-service:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-conversion-service-2/pom.xml.
+2022-08-18 15:12:56,949 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:12:56,949 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:12:56,949 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:12:56,950 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:12:56,953 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:12:56,953 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:12:56,954 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-conversion-service-2/src/test/resources
+2022-08-18 15:13:01,252 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:13:01,253 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:13:01,257 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:13:01,259 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:13:01,263 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:13:01,263 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:13:01,263 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-conversion-service-2/src/test/resources
+2022-08-18 15:13:10,802 [Worker-29: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.karunesh.microservices:api-gateway:0.0.1-SNAPSHOT @ /Users/karuneshmaisalge/Documents/GitHub/microservices-2/api-gateway/pom.xml.
+2022-08-18 15:13:13,343 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:13:13,343 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:13:13,343 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:13:13,344 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:13:13,346 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:13:13,346 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:13:13,346 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/api-gateway/src/test/resources
+2022-08-18 15:13:16,284 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:13:16,284 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:13:16,286 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:13:16,288 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:13:16,290 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:13:16,290 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:13:16,290 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/api-gateway/src/test/resources
+2022-08-18 15:13:31,534 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:13:31,534 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:13:31,535 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:13:31,572 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:13:31,576 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:13:31,576 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:13:31,576 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/api-gateway/src/test/resources
+2022-08-18 15:13:39,404 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:13:39,405 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:13:39,418 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 15:13:39,428 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 15:13:39,432 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 15:13:39,432 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-18 15:13:39,432 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/karuneshmaisalge/Documents/GitHub/microservices-2/currency-conversion-service-2/src/test/resources
+2022-08-18 15:23:45,586 [Worker-34: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration LimitsServiceApplication references closed project limits-service-2
+org.eclipse.core.runtime.CoreException: Launch configuration LimitsServiceApplication references closed project limits-service-2
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.14.0.v20190508-0531.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710) ~[org.eclipse.jdt.launching_3.14.0.v20190508-0531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.400.v20190516-1504.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2022-08-18 15:23:45,590 [Worker-34: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration LimitsServiceApplication references closed project limits-service-2
+org.eclipse.core.runtime.CoreException: Launch configuration LimitsServiceApplication references closed project limits-service-2
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.14.0.v20190508-0531.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710) ~[org.eclipse.jdt.launching_3.14.0.v20190508-0531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.400.v20190516-1504.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2022-08-18 15:23:45,597 [Worker-34: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration LimitsServiceApplication references closed project limits-service-2
+org.eclipse.core.runtime.CoreException: Launch configuration LimitsServiceApplication references closed project limits-service-2
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.14.0.v20190508-0531.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710) ~[org.eclipse.jdt.launching_3.14.0.v20190508-0531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.400.v20190516-1504.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2022-08-18 15:23:50,005 [Worker-34: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SpringCloudConfigServerApplication references closed project spring-cloud-config-server-2
+org.eclipse.core.runtime.CoreException: Launch configuration SpringCloudConfigServerApplication references closed project spring-cloud-config-server-2
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.14.0.v20190508-0531.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710) ~[org.eclipse.jdt.launching_3.14.0.v20190508-0531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.400.v20190516-1504.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2022-08-18 15:23:50,006 [Worker-34: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SpringCloudConfigServerApplication references closed project spring-cloud-config-server-2
+org.eclipse.core.runtime.CoreException: Launch configuration SpringCloudConfigServerApplication references closed project spring-cloud-config-server-2
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.14.0.v20190508-0531.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710) ~[org.eclipse.jdt.launching_3.14.0.v20190508-0531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.400.v20190516-1504.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2022-08-18 15:23:50,012 [Worker-34: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SpringCloudConfigServerApplication references closed project spring-cloud-config-server-2
+org.eclipse.core.runtime.CoreException: Launch configuration SpringCloudConfigServerApplication references closed project spring-cloud-config-server-2
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.14.0.v20190508-0531.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710) ~[org.eclipse.jdt.launching_3.14.0.v20190508-0531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.400.v20190516-1504.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186) [org.eclipse.debug.core_3.13.300.v20190514-0832.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
